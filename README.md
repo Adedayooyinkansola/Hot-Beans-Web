@@ -7,7 +7,7 @@ This project is a responsive website developed using HTML, CSS, and JavaScript. 
 - Responsive design for different screen sizes  
 - Clean and structured layout  
 - Navigation menu and multiple pages  
-- Interactive elements (e.g. dropdowns, forms, or carousels)  
+- Interactive elements (e.g. dropdowns, forms, or collapsible)  
 - User-friendly interface  
 
 ## 🛠️ Technologies Used
@@ -21,14 +21,14 @@ This project is a responsive website developed using HTML, CSS, and JavaScript. 
 3. Open `index.html` in your web browser  
 
 ## 📂 Project Structure
-- `index.html` – Main homepage  
+- `index.html` – Main homepage
+- `/assets` – Images and assets  
 - `style.css` – Styling  
 - `script.js` – Interactivity  
-- `/images` – Images and assets  
 
 ## 📌 Notes
 This project was created to develop my web development skills, focusing on building responsive and interactive websites.
 
 ## 🌍 Live Demo (if enabled)
 You can view the website here:  
-👉 https://yourusername.github.io/repository-name
+👉 https://hotbeansweb12.netlify.app/
