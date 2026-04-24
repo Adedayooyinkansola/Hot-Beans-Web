@@ -22,9 +22,9 @@ This project is a responsive website developed using HTML, CSS, and JavaScript. 
 
 ## 📂 Project Structure
 - `index.html` – Main homepage
-- `/assets` – Images and assets  
-- `style.css` – Styling  
-- `script.js` – Interactivity  
+- `/assets/css/style.css` – Styling  
+- `/assets/js/script.js` – Interactivity
+- `/assets/img` – Images and assets  
 
 ## 📌 Notes
 This project was created to develop my web development skills, focusing on building responsive and interactive websites.
