@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply - Hot Beans Web</title>
+    <link rel="stylesheet" href="assets/css/style-apply.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:
+        300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="apply-section">
+        <div class="apply-background-image">
+            <div class="max-width">
+                <div class="apply-container">
+                    <div class="apply-content">
+                        <h1>APPLY NOW</h1>
+                        <p class="required">Fields marked with <span>*</span> are required</p>
+                        <form action="MAILTO:horneybi123@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-flex">
+                                <div>
+                                    <label for="firstname">First Name <span>*</span></label>
+                                    <input type="text" id="firstname" name="firstname" required>
+                                </div>
+                                <div>
+                                    <label for="lastname">Last name <span>*</span></label>
+                                    <input type="text" id="lastname" name="lastname" required>
+                                </div>
+                            </div>
+                            <label for="email">Email <span>*</span></label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="phone">Phone Number <span>*</span></label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <label for="position">Job Position <span>*</span></label>
+                            <select id="position" name="position" required>
+                                <option value="fulldeveloper">Full Stack Web Developer</option>
+                                <option value="designer"> Web Designer</option>
+                                <option value="backenddeveloer">Back End Developer</option>
+                                <option value="quality">Quality Assurance (QA) Tester</option>
+                            </select>
+                            <div class="file-upload">
+                                <p>Upload CV (PDF) <span>*</span></p>
+                                <label for="cv" class="upload-btn">Upload CV</label></label>
+                                <input type="file" id="cv" name="cv" accept=".pdf" required>
+                            </div>
+                            <label for="message">Message <span>*</span></label>
+                            <textarea id="message" name="message" placeholder="Why would you like to join Hot Beans Web?" required></textarea>
+                            <button type="submit">Submit Application</button>
+                        </form>
+                    </div>
+                    <div class="apply-image">
+                        <div class="apply-background">
+                            <nav class="nav-bar" id="navbar1">
+                                <div class="max-width">
+                                    <div id="myLinks">
+                                        <ul>
+                                            <li><a href="index.html" class="link">Home</a></li>
+                                            <li><a href="about.html" class="link">About</a></li>
+                                            <li><a href="services.html" class="link">Services</a></li>
+                                            <li><a href="team.html" class="link">Team</a></li>
+                                            <li><a href="contact.html" class="link">Contact</a></li>
+                                            <li><a href="apply.html" class="link">Apply</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="apply-image-content">
+                                <h1>Be part of <br> something great.</h1>
+                                <h2>The best web development company.</h2>
+                                <p>Take a look at the requirements for each job position available.</p>
+                                <a href="team.html#apply-team">
+                                    <button>SPECIFICATIONS</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/script_two.js"></script>
+    <script src="https://kit.fontawesome.com/f85e6ae702.js" crossorigin="anonymous"></script>
+</body>
+</html>
